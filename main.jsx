@@ -3,6 +3,7 @@ import ReactDOMServer from "https://dev.jspm.io/react-dom/server";
 import { Application } from "https://deno.land/x/abc@v1.3.3/mod.ts";
 import Home from "./pages/home.jsx";
 const app = new Application();
+app.static("/static", "static");
 
 app.use((next) =>
   (c) => {
