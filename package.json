@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "deno run --allow-net --allow-read main.jsx"
+    "start": "denon run --allow-net --allow-read main.jsx",
+    "install":"deno install --allow-read --allow-run --allow-write -f --unstable https://deno.land/x/denon/denon.ts"
   },
   "author": "",
   "license": "ISC"
