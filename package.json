@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "deno run --allow-net main.jsx"
+    "start": "deno run --allow-net --allow-read main.jsx"
   },
   "author": "",
   "license": "ISC"
