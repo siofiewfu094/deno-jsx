@@ -1,0 +1,11 @@
+{
+  "name": "deno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "deno run --allow-net main.jsx"
+  },
+  "author": "",
+  "license": "ISC"
+}
